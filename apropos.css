@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;1,400;1,500;1,700&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+/**body{
+    background: url("images/Download\ Doctor\ with\ Medical\ mask\ background\ for\ free.jpeg");
+    background-size: cover;
+}**/
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    position: fixed;
+    gap: 60px;
+    background-color: #ffffff;
+    background: #ffffff;
+    width: 100%;
+}
+header.logo{
+    font-size: 25px;
+}
+header .logo span{
+    color: #5e8dbb;
+    font-size: 26px;
+}
+header .menu a{
+    position: relative;
+    margin:0 10px ;
+    text-decoration: 0;
+    color: #403b52d3;
+    transition: 0.5s;
+    
+
+}
+header .menu a::before{
+    position: absolute;
+    top: -2px;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #93ded0 ;
+    transition: 0.5s;
+ }
+ header .menu  a:hover:before{
+    width: 100%;
+}
+header .menu  a:hover{
+    color: #000;
+}
+
+.presentation {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .presentation h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .presentation p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .mission {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .mission h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .mission h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .mission p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .mission ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .mission li {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: calc(20% - 20px);
+  }
+  .team {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  .team h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .team ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .team li {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+  }
+  
+  .team img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .team h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .team p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .services {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .services li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .engagement-social {
+    background-color: #f5f5f5;
+    padding: 30px;
+  }
+  
+  .engagement-social h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .engagement-social p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .engagement-social ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .engagement-social li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .privacy-policy {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .privacy-policy h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-policy h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-info ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info ul li i {
+    margin-right: 10px;
+    color: #1f49d1;
+  }
+  
